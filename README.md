@@ -51,9 +51,10 @@ TESTNET=True
 ### Install the requirements
 _Optional: If you are familiar with virtual environments, create one now and activate it. If not, this step is not necessary:_
 
-```console
-$ virtualenv venv
+```console$
+$ python3.9 -m venv venv
 $ source venv/bin/activate
+$ pip install -r requirements.txt
 ```
 
 Install the package requirements:
